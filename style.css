@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #c9d1d9;
+  margin: 0;
+}
+
+header {
+  background: #161b22;
+  padding: 15px 20px;
+  border-bottom: 1px solid #30363d;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #58a6ff;
+  display: inline-block;
+}
+.logo span { color: #c9d1d9; }
+
+nav {
+  display: inline-block;
+  margin-left: 30px;
+}
+nav a {
+  color: #8b949e;
+  text-decoration: none;
+  margin-right: 15px;
+}
+nav a:hover { color: #58a6ff; }
+
+main {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid #1f6feb;
+  color: #58a6ff;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #e6edf3;
+  margin: 0 0 15px;
+}
+h1 span { color: #58a6ff; }
+
+p.subtitle {
+  color: #8b949e;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.5;
+}
+
+.cards {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 260px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.card h3 {
+  color: #e6edf3;
+  margin: 0 0 8px;
+}
+
+.card p {
+  color: #8b949e;
+  font-size: 14px;
+  margin: 0;
+}
+
+.notice {
+  margin: 30px auto 0;
+  max-width: 600px;
+  border: 1px dashed #30363d;
+  padding: 15px;
+  color: #8b949e;
+  font-size: 14px;
+  text-align: left;
+}
+.notice code {
+  background: #21262d;
+  padding: 1px 5px;
+  color: #58a6ff;
+}
+
+footer {
+  border-top: 1px solid #30363d;
+  text-align: center;
+  padding: 15px;
+  color: #8b949e;
+  font-size: 13px;
+  margin-top: 30px;
+}
+footer span { color: #58a6ff; }
